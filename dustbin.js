@@ -21,7 +21,7 @@ class Dustbin
        fill("white")
         rect(pos.x , pos.y , this.width , this.height)
         imageMode(CENTER)
-        image(this.image,685,554,230,230);
+        image(this.image,690,554,230,230);
         pop();
 
      }

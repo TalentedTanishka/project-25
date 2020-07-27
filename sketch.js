@@ -41,8 +41,9 @@ Engine.update(engine);
 
   
 
-  ground.display();
+  
   paper.display();
+  ground.display();
 dustbin1.display();
 dustbin2.display();
 dustbin3.display(); 
