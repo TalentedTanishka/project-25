@@ -9,6 +9,7 @@ class Paper
      }
       this.body = Matter.Bodies.circle(x,y, radius,options);
       this.radius = radius;
+      this.image = loadImage("sprites/paper.png")
       World.add(world , this.body)
       
     
@@ -20,7 +21,8 @@ class Paper
         push();
         translate(pos.x , pos.y )
         fill("white")
-        ellipse(0,0 , this.radius)
+        imageMode(CENTER);
+        image(this.image , 0,0 , this.radius)
         pop();
     }
 }
